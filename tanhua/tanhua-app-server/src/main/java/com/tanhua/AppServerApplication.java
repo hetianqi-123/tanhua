@@ -11,7 +11,7 @@ import org.springframework.cache.annotation.EnableCaching;
         MongoAutoConfiguration.class,
         MongoDataAutoConfiguration.class
 })
-//开启缓存
+//开启缓存2222222222222222222222222222222222222222
 @EnableCaching
 public class AppServerApplication {
     public static void main(String[] args) {

@@ -10,7 +10,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication(exclude = {MongoAutoConfiguration.class, MongoDataAutoConfiguration.class})
 @MapperScan("com.tanhua.admin.mapper")
-//开启定时任务
+//开启定时任务1111111111111111111111
 @EnableScheduling
 public class AdminServerApplication {
 
