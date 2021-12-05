@@ -25,7 +25,7 @@ public class GreenTest {
         List<String> list = new ArrayList<>();
         list.add("http://images.china.cn/site1000/2018-03/17/dfd4002e-f965-4e7c-9e04-6b72c601d952.jpg");
         Map<String, String> map = aliyunGreenTemplate.imageScan(list);
-        System.out.println("------------");
+        System.out.println("------------1111");
         map.forEach((k,v)-> System.out.println(k +"--" + v));
     }
 
